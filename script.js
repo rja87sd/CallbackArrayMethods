@@ -10,5 +10,9 @@ const byTwo = numbers.map((eachNumber) => {
 });
 console.log(byTwo);
 
-
+// Use the filter method with a callback to filter elements of the array (e.g., keep only even numbers).
+const evenNumbers = numbers.filter((num) => {
+  return num % 2 === 0;
+});
+console.log(evenNumbers);
 
