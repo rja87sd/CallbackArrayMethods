@@ -16,3 +16,7 @@ const evenNumbers = numbers.filter((num) => {
 });
 console.log(evenNumbers);
 
+// Utilize the forEach method to iterate over the array and perform an action for each element (e.g., log each element to the console).
+numbers.forEach((item) => {
+    console.log(item);
+});
