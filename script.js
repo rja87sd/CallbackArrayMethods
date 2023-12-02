@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Declare global variables.
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -18,5 +18,5 @@ console.log(evenNumbers);
 
 // Utilize the forEach method to iterate over the array and perform an action for each element (e.g., log each element to the console).
 numbers.forEach((item) => {
-    console.log(item);
+  console.log(item);
 });
